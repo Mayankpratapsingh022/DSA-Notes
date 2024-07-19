@@ -129,6 +129,4 @@ Final:
 4. **Test thoroughly:** Ensure to test your solution with different inputs to cover all possible edge cases.
 
 By following these steps and understanding the problem deeply, you can approach similar array manipulation problems effectively.
-
-
-[![Remove Element](https://img.shields.io/badge/LeetCode-Remove%20Element-blue.svg)](https://leetcode.com/problems/remove-element/)
+[Remove Element Leetcode](https://leetcode.com/problems/remove-element/)

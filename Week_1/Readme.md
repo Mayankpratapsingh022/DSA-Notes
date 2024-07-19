@@ -41,4 +41,29 @@ FUNCTION twoSum(numbers, target):
 
 ```
 
+
+
+
+
 This pseudocode outlines the step-by-step process of solving the two-sum problem for a sorted array using the two-pointer technique. It efficiently narrows down the search space by adjusting the pointers based on the comparison of the current sum with the target.
+
+
+
+```
+class Solution:
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        low,high = 0 , len(numbers) -1
+        while low<high:
+            summation = numbers[low] + numbers[high]
+            if sumamation ==target:
+                return [low+1,high+1]
+            elif summation> target:
+                high -= 1
+            else:
+                low += 1
+        return [-1,-1]
+
+
+````
+
+

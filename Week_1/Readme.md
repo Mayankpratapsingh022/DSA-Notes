@@ -68,5 +68,6 @@ class Solution:
 
 
 #### My Solution on LeetCode
+<a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/1326224716/" target="_blank">Two Sum II - Input Array Is Sorted - LeetCode</a>
 
 [Two Sum II - Input Array Is Sorted - LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/1326224716/)

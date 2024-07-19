@@ -1,38 +1,44 @@
-# Data Structures and Algorithms Repository
+# 1 Two Sum Sorted
+### Below is the pseudocode for the `twoSum` problem in a sorted array. This problem can be solved using the two-pointer technique.
 
-Welcome to my comprehensive collection of **Data Structures and Algorithms (DSA)** notes and solutions. This repository serves as a valuable resource for anyone looking to deepen their understanding and mastery of DSA concepts. Whether you're a beginner or an experienced programmer, you'll find a wealth of information and practical examples here.
+### Pseudocode:
 
-![DSA Overview](path_to_your_image.png)
+1. **Initialize Pointers:**
+    - Set `low` to 0 (the start of the array).
+    - Set `high` to the index of the last element in the array (`len(numbers) - 1`).
+2. **Loop until the pointers meet:**
+    - While `low` is less than `high`:
+        - Calculate the `summation` of the elements at the `low` and `high` pointers.
+        - If `summation` is equal to the `target`:
+            - Return the indices `[low + 1, high + 1]` (assuming 1-based indexing).
+        - If `summation` is greater than the `target`:
+            - Decrease the `high` pointer by 1 (move it left).
+        - Else (if `summation` is less than the `target`):
+            - Increase the `low` pointer by 1 (move it right).
+3. **Return Not Found:**
+    - If no such pair is found, return `[-1, -1]`.
 
-## Data Structures
+### Detailed Pseudocode:
 
-Data structures are fundamental components in programming and computer science, enabling efficient data management and manipulation. They can be categorized into two main types:
+```
+FUNCTION twoSum(numbers, target):
+    SET low to 0
+    SET high to length of numbers - 1
 
-### Linear
+    WHILE low is less than high:
+        SET summation to numbers[low] + numbers[high]
 
-1. **Array**
-2. **Tuple**
-3. **Linked List**
-4. **Stack**
-5. **Queue**
-6. **Dictionary**
+        IF summation is equal to target:
+            RETURN [low + 1, high + 1]  // Return 1-based indices
 
-### Non-Linear
+        ELSE IF summation is greater than target:
+            DECREMENT high by 1  // Move the high pointer left
 
-1. **Tree**
-2. **Graph**
-3. **Heap**
-4. **Trie**
-5. **Hash Table**
+        ELSE:
+            INCREMENT low by 1  // Move the low pointer right
 
-## Algorithms
+    RETURN [-1, -1]  // If no solution is found
 
-An algorithm is a sequence of finite steps to solve any particular problem. In computer science, algorithms are essential for performing tasks, processing data, and solving complex problems efficiently. They provide a clear set of instructions that a computer can follow to achieve a specific goal.
+```
 
-### Why Algorithms Matter:
-
-Algorithms are the backbone of computer programming and software development. They allow us to automate tasks, process large amounts of data, and solve problems that would be impossible to tackle manually. Understanding algorithms is crucial for anyone interested in computer science, as they form the foundation of efficient and effective programming.
-
----
-
-Feel free to explore, learn, and contribute!
+This pseudocode outlines the step-by-step process of solving the two-sum problem for a sorted array using the two-pointer technique. It efficiently narrows down the search space by adjusting the pointers based on the comparison of the current sum with the target.

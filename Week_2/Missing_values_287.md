@@ -1,16 +1,16 @@
-# Finding Missing and Repeated Elements in an Array
+# Finding Missing Elements in an Array
 
-In this note, we'll discuss different approaches to solve the problem of finding the missing and repeated elements in an array. We'll start with a brute force solution and move on to more optimized methods, highlighting the bit manipulation (XOR) approach as the most optimized one.
+In this note, we'll discuss different approaches to solve the problem of finding the missing elements in an array. We'll start with a brute force solution and move on to more optimized methods, highlighting the bit manipulation (XOR) approach as the most optimized one.
 
 ## Problem Statement
 
-Given an array of size `n` containing elements from `1` to `n`, find the missing and repeated elements.
+Given an array of size `n` containing elements from `1` to `n`, find the missing  elements.
 
 ### Example
 
 Given array: `[1, 2, 3, 3, 4, 5]`
 Missing element: `6`
-Repeated element: `3`
+
 
 
 

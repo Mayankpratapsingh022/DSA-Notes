@@ -1,5 +1,6 @@
 
- #Duplicate Numbers
+
+# Duplicate Numbers
  we'll start with the brute force approach and move on to more efficient algorithms. Let's dive in:
 
 ### Approach 1: Brute Force

@@ -1,4 +1,6 @@
-To provide you with in-depth notes and explanations of the different approaches to finding duplicate numbers in an array, we'll start with the brute force approach and move on to more efficient algorithms. Let's dive in:
+
+ #Duplicate Numbers
+ we'll start with the brute force approach and move on to more efficient algorithms. Let's dive in:
 
 ### Approach 1: Brute Force
 

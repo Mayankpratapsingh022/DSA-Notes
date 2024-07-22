@@ -7,9 +7,11 @@ Welcome to the DSA-Notes repository! This repository is dedicated to storing all
 The repository is organized into weekly folders, each containing notes and problem solutions covered during that week. Below is the structure of the repository:
 
 
+
 ## Contents
 
-### Week 1
+<details>
+<summary><strong>Week 1</strong></summary>
 
 #### Notes
 
@@ -41,15 +43,54 @@ The repository is organized into weekly folders, each containing notes and probl
 4. **Rotate_Array_189.md**:
    - Pseudocode and solution for the Rotate Array problem
 
-### Week 2
+</details>
+
+<details>
+<summary><strong>Week 2</strong></summary>
 
 #### Notes
 
-- Currently in progress. This section will be updated with notes and problems covered in Week 2.
+1. **Recursion_Week_1_2.pdf**:
+   - Introduction to recursion
+   - Examples and use cases
+   - How to approach problems using recursion
+
+2. **Searching_Algorithms_1.1.pdf**:
+   - Overview of searching algorithms
+   - Detailed notes on binary search, linear search, etc.
+   - Use cases and examples
+
+#### Problems
+
+1. **Duplicate_Numbers_287.md**:
+   - Pseudocode and solution for finding duplicate numbers in an array
+
+2. **Fibonacci_Number_509.md**:
+   - Pseudocode and solution for generating Fibonacci numbers
+
+3. **Find_Peak_Element_162.md**:
+   - Pseudocode and solution for finding a peak element in an array
+
+4. **Missing_values_287.md**:
+   - Pseudocode and solution for finding missing values in an array
+
+5. **Pow_50.md**:
+   - Pseudocode and solution for calculating power of a number
+
+6. **Search_a_2D_Matrix_74.md**:
+   - Pseudocode and solution for searching in a 2D matrix
+
+7. **Sum_of_Digit_Recur.md**:
+   - Pseudocode and solution for finding the sum of digits using recursion
+
+8. **Topic.md**:
+   - Miscellaneous topics covered in Week 2
+
+</details>
 
 ## Usage
 
- Each markdown file in the Problems directory contains detailed pseudocode and explanations to help you understand the solution.
+Each markdown file in the Problems directory contains detailed pseudocode and explanations to help you understand the solution.
 
 ## Contributions
 
@@ -59,5 +100,6 @@ If you find any errors or have suggestions for improvements, please feel free to
 
 This repository is based on the teachings and materials provided by Priya Bhatia Mam in her DSA course. Special thanks to her for the excellent content and guidance.
 
+---
 
 Happy Coding!

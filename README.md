@@ -15,33 +15,47 @@ The repository is organized into weekly folders, each containing notes and probl
 
 #### Notes
 
-1. **Analysis_of_Algorithms_Week_1.1.pdf**:
+<details>
+<summary><strong>1. Analysis_of_Algorithms_Week_1.1.pdf</strong></summary>
    - Overview of algorithms
    - Importance of understanding algorithm analysis
    - Introduction to complexity analysis
+</details>
 
-2. **Arrays_Notes_Week_1.3.pdf**:
+<details>
+<summary><strong>2. Arrays_Notes_Week_1.3.pdf</strong></summary>
    - Detailed notes on arrays
    - Operations on arrays
    - Examples and use cases
+</details>
 
-3. **Asymptotic_Notations_Week_1.2.pdf**:
+<details>
+<summary><strong>3. Asymptotic_Notations_Week_1.2.pdf</strong></summary>
    - Explanation of Big O, Big Theta, and Big Omega notations
    - How to analyze the time and space complexity of algorithms
+</details>
 
 #### Problems
 
-1. **1_Two_Sum_Sorted_167.md**:
+<details>
+<summary><strong>1. 1_Two_Sum_Sorted_167.md</strong></summary>
    - Pseudocode and solution for the Two Sum problem using the two-pointer technique
+</details>
 
-2. **2_Remove_Element_27.md**:
+<details>
+<summary><strong>2. 2_Remove_Element_27.md</strong></summary>
    - Pseudocode and solution for the Remove Element problem
+</details>
 
-3. **Product_Of_Array_Except_Self_238.md**:
+<details>
+<summary><strong>3. Product_Of_Array_Except_Self_238.md</strong></summary>
    - Pseudocode and solution for the Product of Array Except Self problem
+</details>
 
-4. **Rotate_Array_189.md**:
+<details>
+<summary><strong>4. Rotate_Array_189.md</strong></summary>
    - Pseudocode and solution for the Rotate Array problem
+</details>
 
 </details>
 
@@ -50,41 +64,61 @@ The repository is organized into weekly folders, each containing notes and probl
 
 #### Notes
 
-1. **Recursion_Week_1_2.pdf**:
+<details>
+<summary><strong>1. Recursion_Week_1_2.pdf</strong></summary>
    - Introduction to recursion
    - Examples and use cases
    - How to approach problems using recursion
+</details>
 
-2. **Searching_Algorithms_1.1.pdf**:
+<details>
+<summary><strong>2. Searching_Algorithms_1.1.pdf</strong></summary>
    - Overview of searching algorithms
    - Detailed notes on binary search, linear search, etc.
    - Use cases and examples
+</details>
 
 #### Problems
 
-1. **Duplicate_Numbers_287.md**:
+<details>
+<summary><strong>1. Duplicate_Numbers_287.md</strong></summary>
    - Pseudocode and solution for finding duplicate numbers in an array
+</details>
 
-2. **Fibonacci_Number_509.md**:
+<details>
+<summary><strong>2. Fibonacci_Number_509.md</strong></summary>
    - Pseudocode and solution for generating Fibonacci numbers
+</details>
 
-3. **Find_Peak_Element_162.md**:
+<details>
+<summary><strong>3. Find_Peak_Element_162.md</strong></summary>
    - Pseudocode and solution for finding a peak element in an array
+</details>
 
-4. **Missing_values_287.md**:
+<details>
+<summary><strong>4. Missing_values_287.md</strong></summary>
    - Pseudocode and solution for finding missing values in an array
+</details>
 
-5. **Pow_50.md**:
+<details>
+<summary><strong>5. Pow_50.md</strong></summary>
    - Pseudocode and solution for calculating power of a number
+</details>
 
-6. **Search_a_2D_Matrix_74.md**:
+<details>
+<summary><strong>6. Search_a_2D_Matrix_74.md</strong></summary>
    - Pseudocode and solution for searching in a 2D matrix
+</details>
 
-7. **Sum_of_Digit_Recur.md**:
+<details>
+<summary><strong>7. Sum_of_Digit_Recur.md</strong></summary>
    - Pseudocode and solution for finding the sum of digits using recursion
+</details>
 
-8. **Topic.md**:
+<details>
+<summary><strong>8. Topic.md</strong></summary>
    - Miscellaneous topics covered in Week 2
+</details>
 
 </details>
 
@@ -98,7 +132,7 @@ If you find any errors or have suggestions for improvements, please feel free to
 
 ## Acknowledgements
 
-This repository is based on the teachings and materials provided by Priya Bhatia Mam in her DSA course. Special thanks to her for the excellent content and guidance.
+This repository is based on the teachings and materials provided by **Priya Bhatia Mam** in her DSA course. Special thanks to her for the excellent content and guidance.
 
 ---
 

@@ -1,6 +1,6 @@
 # DSA-Notes Repository
 
-Welcome to the DSA-Notes repository! This repository is dedicated to storing all my notes and solutions related to Data Structures and Algorithms (DSA) as part of Priya Bhatia's DSA course. It serves as a comprehensive resource for my journey in mastering data structures and algorithms.
+Welcome to the DSA-Notes repository! This repository is dedicated to storing all my notes and solutions related to Data Structures and Algorithms (DSA) as part of Priya Bhatia's Mam DSA course. It serves as a comprehensive resource for my journey in mastering data structures and algorithms.
 
 ## Repository Structure
 
@@ -57,7 +57,7 @@ If you find any errors or have suggestions for improvements, please feel free to
 
 ## Acknowledgements
 
-This repository is based on the teachings and materials provided by Priya Bhatia in her DSA course. Special thanks to her for the excellent content and guidance.
+This repository is based on the teachings and materials provided by Priya Bhatia Mam in her DSA course. Special thanks to her for the excellent content and guidance.
 
 
 Happy Coding!

@@ -8,6 +8,10 @@ The repository is organized into weekly folders, each containing notes and probl
 
 
 
+
+
+
+
 ## Contents
 
 <details>
@@ -16,7 +20,7 @@ The repository is organized into weekly folders, each containing notes and probl
 #### Notes
 
 <details>
-<summary><strong>1. Analysis_of_Algorithms_Week_1.1.pdf</strong></summary>
+<summary><strong>1. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_1/Notes/Analysis_of_Algorithms_Week_1.1.pdf">Analysis_of_Algorithms_Week_1.1.pdf</a></strong></summary>
 <ul>
   <li>Overview of algorithms</li>
   <li>Importance of understanding algorithm analysis</li>
@@ -25,7 +29,7 @@ The repository is organized into weekly folders, each containing notes and probl
 </details>
 
 <details>
-<summary><strong>2. Arrays_Notes_Week_1.3.pdf</strong></summary>
+<summary><strong>2. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_1/Notes/Arrays_Notes_Week_1.3.pdf">Arrays_Notes_Week_1.3.pdf</a></strong></summary>
 <ul>
   <li>Detailed notes on arrays</li>
   <li>Operations on arrays</li>
@@ -34,7 +38,7 @@ The repository is organized into weekly folders, each containing notes and probl
 </details>
 
 <details>
-<summary><strong>3. Asymptotic_Notations_Week_1.2.pdf</strong></summary>
+<summary><strong>3. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_1/Notes/Asymptotic_Notations_Week_1.2.pdf">Asymptotic_Notations_Week_1.2.pdf</a></strong></summary>
 <ul>
   <li>Explanation of Big O, Big Theta, and Big Omega notations</li>
   <li>How to analyze the time and space complexity of algorithms</li>
@@ -44,28 +48,28 @@ The repository is organized into weekly folders, each containing notes and probl
 #### Problems
 
 <details>
-<summary><strong>1. 1_Two_Sum_Sorted_167.md</strong></summary>
+<summary><strong>1. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_1/Problems/1_Two_Sum_Sorted_167.md">1_Two_Sum_Sorted_167.md</a></strong></summary>
 <ul>
   <li>Pseudocode and solution for the Two Sum problem using the two-pointer technique</li>
 </ul>
 </details>
 
 <details>
-<summary><strong>2. 2_Remove_Element_27.md</strong></summary>
+<summary><strong>2. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_1/Problems/2_Remove_Element_27.md">2_Remove_Element_27.md</a></strong></summary>
 <ul>
   <li>Pseudocode and solution for the Remove Element problem</li>
 </ul>
 </details>
 
 <details>
-<summary><strong>3. Product_Of_Array_Except_Self_238.md</strong></summary>
+<summary><strong>3. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_1/Problems/Product_Of_Array_Except_Self_238.md">Product_Of_Array_Except_Self_238.md</a></strong></summary>
 <ul>
   <li>Pseudocode and solution for the Product of Array Except Self problem</li>
 </ul>
 </details>
 
 <details>
-<summary><strong>4. Rotate_Array_189.md</strong></summary>
+<summary><strong>4. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_1/Problems/Rotate_Array_189.md">Rotate_Array_189.md</a></strong></summary>
 <ul>
   <li>Pseudocode and solution for the Rotate Array problem</li>
 </ul>
@@ -79,7 +83,7 @@ The repository is organized into weekly folders, each containing notes and probl
 #### Notes
 
 <details>
-<summary><strong>1. Recursion_Week_1_2.pdf</strong></summary>
+<summary><strong>1. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_2/Notes/Recursion_Week_1_2.pdf">Recursion_Week_1_2.pdf</a></strong></summary>
 <ul>
   <li>Introduction to recursion</li>
   <li>Examples and use cases</li>
@@ -88,7 +92,7 @@ The repository is organized into weekly folders, each containing notes and probl
 </details>
 
 <details>
-<summary><strong>2. Searching_Algorithms_1.1.pdf</strong></summary>
+<summary><strong>2. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_2/Notes/Searching_Algorithms_1.1.pdf">Searching_Algorithms_1.1.pdf</a></strong></summary>
 <ul>
   <li>Overview of searching algorithms</li>
   <li>Detailed notes on binary search, linear search, etc.</li>
@@ -99,56 +103,56 @@ The repository is organized into weekly folders, each containing notes and probl
 #### Problems
 
 <details>
-<summary><strong>1. Duplicate_Numbers_287.md</strong></summary>
+<summary><strong>1. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_2/Problems/Duplicate_Numbers_287.md">Duplicate_Numbers_287.md</a></strong></summary>
 <ul>
   <li>Pseudocode and solution for finding duplicate numbers in an array</li>
 </ul>
 </details>
 
 <details>
-<summary><strong>2. Fibonacci_Number_509.md</strong></summary>
+<summary><strong>2. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_2/Problems/Fibonacci_Number_509.md">Fibonacci_Number_509.md</a></strong></summary>
 <ul>
   <li>Pseudocode and solution for generating Fibonacci numbers</li>
 </ul>
 </details>
 
 <details>
-<summary><strong>3. Find_Peak_Element_162.md</strong></summary>
+<summary><strong>3. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_2/Problems/Find_Peak_Element_162.md">Find_Peak_Element_162.md</a></strong></summary>
 <ul>
   <li>Pseudocode and solution for finding a peak element in an array</li>
 </ul>
 </details>
 
 <details>
-<summary><strong>4. Missing_values_287.md</strong></summary>
+<summary><strong>4. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_2/Problems/Missing_values_287.md">Missing_values_287.md</a></strong></summary>
 <ul>
   <li>Pseudocode and solution for finding missing values in an array</li>
 </ul>
 </details>
 
 <details>
-<summary><strong>5. Pow_50.md</strong></summary>
+<summary><strong>5. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_2/Problems/Pow_50.md">Pow_50.md</a></strong></summary>
 <ul>
   <li>Pseudocode and solution for calculating power of a number</li>
 </ul>
 </details>
 
 <details>
-<summary><strong>6. Search_a_2D_Matrix_74.md</strong></summary>
+<summary><strong>6. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_2/Problems/Search_a_2D_Matrix_74.md">Search_a_2D_Matrix_74.md</a></strong></summary>
 <ul>
   <li>Pseudocode and solution for searching in a 2D matrix</li>
 </ul>
 </details>
 
 <details>
-<summary><strong>7. Sum_of_Digit_Recur.md</strong></summary>
+<summary><strong>7. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_2/Problems/Sum_of_Digit_Recur.md">Sum_of_Digit_Recur.md</a></strong></summary>
 <ul>
   <li>Pseudocode and solution for finding the sum of digits using recursion</li>
 </ul>
 </details>
 
 <details>
-<summary><strong>8. Topic.md</strong></summary>
+<summary><strong>8. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_2/Problems/Topic.md">Topic.md</a></strong></summary>
 <ul>
   <li>Miscellaneous topics covered in Week 2</li>
 </ul>
@@ -171,4 +175,3 @@ This repository is based on the teachings and materials provided by **Priya Bhat
 ---
 
 Happy Coding!
-

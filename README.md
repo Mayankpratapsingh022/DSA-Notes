@@ -59,10 +59,5 @@ If you find any errors or have suggestions for improvements, please feel free to
 
 This repository is based on the teachings and materials provided by Priya Bhatia in her DSA course. Special thanks to her for the excellent content and guidance.
 
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
----
 
 Happy Coding!

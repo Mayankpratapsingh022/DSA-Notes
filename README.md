@@ -20,7 +20,7 @@ The repository is organized into weekly folders, each containing notes and probl
 #### Notes
 
 <details>
-<summary><strong>1. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_1/Notes/Analysis_of_Algorithms_Week_1.1.pdf">Analysis_of_Algorithms_Week_1.1.pdf</a></strong></summary>
+<summary><strong>1. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_1/Notes/Analyics%20of%20Algrothims_Week_1.1.pdf">Analysis_of_Algorithms_Week_1.1.pdf</a></strong></summary>
 <ul>
   <li>Overview of algorithms</li>
   <li>Importance of understanding algorithm analysis</li>
@@ -151,12 +151,6 @@ The repository is organized into weekly folders, each containing notes and probl
 </ul>
 </details>
 
-<details>
-<summary><strong>8. <a href="https://github.com/Mayankpratapsingh022/DSA-Notes/blob/main/Week_2/Problems/Topic.md">Topic.md</a></strong></summary>
-<ul>
-  <li>Miscellaneous topics covered in Week 2</li>
-</ul>
-</details>
 
 </details>
 

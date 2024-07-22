@@ -49,7 +49,7 @@ The repository is organized into weekly folders, each containing notes and probl
 
 ## Usage
 
-Feel free to explore the notes and problems in this repository. Each markdown file in the Problems directory contains detailed pseudocode and explanations to help you understand the solution.
+ Each markdown file in the Problems directory contains detailed pseudocode and explanations to help you understand the solution.
 
 ## Contributions
 

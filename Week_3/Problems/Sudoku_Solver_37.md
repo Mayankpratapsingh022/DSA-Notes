@@ -33,69 +33,93 @@
 ### Python Code for Sudoku Solver with Explanation
 
 ```python
-def print_board(board):
-    for row in board:
-        print(" ".join(row))
-    print()
+from typing import List
 
-def isValid(board, row, col, c):
-    for i in range(9):  # Check each row and column, and the 3x3 sub-grid for validity
-        if board[i][col] == c:  # Check if the number is already in the column
-            return False
-        if board[row][i] == c:  # Check if the number is already in the row
-            return False
-        # Check if the number is in the 3x3 sub-grid
-        if board[3 * (row // 3) + i // 3][3 * (col // 3) + i % 3] == c:
-            return False
-    return True  # The number is valid if it is not found in the row, column, or sub-grid
-
-def solveSudoku(board):
-    for i in range(len(board)):  # Iterate over each cell in the board
-        for j in range(len(board[0])):
-            if board[i][j] == '.':  # Find an empty cell
-                for c in '123456789':  # Try placing numbers 1 to 9
-                    if isValid(board, i, j, c):  # Check if the number can be placed
-                        board[i][j] = c  # Place the number
-                        print_board(board)  # Print the board for visualization
-                        if solveSudoku(board):  # Recursively solve the rest of the board
-                            return True  # If solved, return true
-                        else:
-                            board[i][j] = '.'  # Backtrack by removing the number
-                            print_board(board)  # Print the board for visualization
-                return False  # Return false if no valid number can be placed
-    return True  # Return true if the board is fully solved
-
-# Example board
-board = [
-    ["5","3",".",".","7",".",".",".","."],
-    ["6",".",".","1","9","5",".",".","."],
-    [".","9","8",".",".",".",".","6","."],
-    ["8",".",".",".","6",".",".",".","3"],
-    ["4",".",".","8",".","3",".",".","1"],
-    ["7",".",".",".","2",".",".",".","6"],
-    [".","6",".",".",".",".","2","8","."],
-    [".",".",".","4","1","9",".",".","5"],
-    [".",".",".",".","8",".",".","7","9"]
-]
-
-solveSudoku(board)
+class Solution:
+    def solveSudoku(self, board: List[List[str]]) -> None:
+        # solve function that solves the Sudoku puzzle
+        def solve(board):
+            # We have to traverse the matrix into rows and columns
+            for i in range(len(board)):  # Loop over each row
+                for j in range(len(board[0])):  # Loop over each column
+                    # Board is empty
+                    if board[i][j] == '.':  # Check if the current cell is empty
+                        for c in '123456789':  # Try placing numbers 1 to 9 in the cell
+                            # Function call which determines the three conditions
+                            # 1. Row-wise uniqueness
+                            # 2. Column-wise uniqueness
+                            # 3. 3x3 sub-boxes uniqueness
+                            if isValid(board, i, j, c):  # Check if placing 'c' in board[i][j] is valid
+                                board[i][j] = c  # Place 'c' in board[i][j]
+                                if solve(board):  # Recursively solve the rest of the board
+                                    return True  # If the board is solved, return True
+                                else:
+                                    # This is where we are backtracking
+                                    board[i][j] = '.'  # Remove 'c' from board[i][j] and try the next number
+                        return False  # If no number can be placed, return False (trigger backtracking)
+            return True  # If the board is fully solved, return True
+        
+        # Function to check if placing 'c' in board[row][col] is valid
+        def isValid(board, row, col, c):
+            for i in range(9):  # Loop over each cell in the row, column, and 3x3 sub-box
+                if board[i][col] == c:  # Check column for duplicates
+                    return False
+                if board[row][i] == c:  # Check row for duplicates
+                    return False
+                if board[3 * (row // 3) + i // 3][3 * (col // 3) + i % 3] == c:  # Check 3x3 sub-box for duplicates
+                    return False
+            return True  # If no duplicates are found, return True
+        
+        solve(board)  # Call the solve function to start solving the board
 ```
 
-### Explanation of Code
+### Explanation in Easy Manner (for a Kid)
 
-1. **print_board Function:** Prints the current state of the board in a readable format.
-2. **isValid Function:** Checks if placing a number `c` in cell `(row, col)` is valid:
-   - Checks the entire column to ensure `c` is not already present.
-   - Checks the entire row to ensure `c` is not already present.
-   - Checks the 3x3 sub-grid to ensure `c` is not already present.
-3. **solveSudoku Function:** Solves the Sudoku using backtracking:
-   - Iterates over each cell in the board.
-   - If an empty cell is found, tries placing numbers from 1 to 9.
-   - For each number, checks if it is valid using the `isValid` function.
-   - If valid, places the number and prints the board.
-   - Recursively calls `solveSudoku` to solve the rest of the board.
-   - If placing the number does not lead to a solution, backtracks by removing the number and prints the board.
-   - This process continues until the board is fully solved or all possibilities are exhausted.
+Imagine you have a big puzzle board with 81 little boxes arranged in a 9x9 grid. Some of these boxes already have numbers from 1 to 9, and some are empty. Your job is to fill in the empty boxes with numbers from 1 to 9 so that:
+
+1. Each row (like a line of boxes going across) has all the numbers from 1 to 9 with no repeats.
+2. Each column (like a line of boxes going up and down) has all the numbers from 1 to 9 with no repeats.
+3. Each small 3x3 square (like a smaller box inside the big box) also has all the numbers from 1 to 9 with no repeats.
+
+To solve this puzzle, we can use a method called "backtracking." Here's how it works:
+
+1. **Look for an Empty Box:** Start at the first box and look for an empty one.
+2. **Try a Number:** Try putting a number from 1 to 9 in the empty box.
+3. **Check if it's Okay:** Before you put the number in the box, check three things:
+   - Is the number already in the same row?
+   - Is the number already in the same column?
+   - Is the number already in the same 3x3 square?
+4. **Place the Number:** If the number is not in the same row, column, or 3x3 square, put it in the box.
+5. **Solve the Next Box:** Move to the next empty box and repeat steps 2-4.
+6. **Backtrack if Needed:** If you can't find a number that works, go back to the previous box and try a different number. This is called "backtracking."
+7. **Finish the Puzzle:** Keep doing this until all the boxes are filled correctly.
+
+### Simplified Code Explanation (Step-by-Step)
+
+1. **Define Functions:**
+   - We create a function called `solve` to go through each box and try to fill it.
+   - We create another function called `isValid` to check if a number can go into a specific box without breaking the rules.
+
+2. **Go Through Each Box:**
+   - In the `solve` function, we loop through every box in the grid.
+   - If a box is empty (represented by '.'), we try putting numbers 1 to 9 in it.
+
+3. **Check the Number:**
+   - For each number we try, we use the `isValid` function to check if the number is already in the same row, column, or 3x3 square.
+
+4. **Place and Move On:**
+   - If the number is okay to place, we put it in the box and call `solve` again to move to the next box.
+   - If we solve the puzzle, we return `True` to indicate success.
+
+5. **Backtrack if Needed:**
+   - If placing a number doesn't lead to a solution, we remove it (backtrack) and try the next number.
+   - If no numbers work, we return `False` to backtrack to the previous box.
+
+6. **Start Solving:**
+   - Finally, we call `solve(board)` to start solving the Sudoku puzzle.
+
+This way, we fill in the Sudoku board step by step, checking and backtracking as needed, until the puzzle is completely solved.
+
 
 ### Visualizing the Board at Each Step
 
@@ -152,3 +176,6 @@ solveSudoku(board)
 | 9 | 6 | 1 | 5 | 3 | 7 | 2 | 8 | 4 |
 | 2 | 8 | 7 | 4 | 1 | 9 | 6 | 3 | 5 |
 | 3 | 4 | 5 | 2 | 8 | 6 | 1 | 7 | 9 |
+
+
+[Sudoku Solver Leetcode](https://leetcode.com/problems/sudoku-solver/)
